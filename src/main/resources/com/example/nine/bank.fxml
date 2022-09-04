@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nine.bankController">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-3.0" prefHeight="541.0" prefWidth="504.0" style="-fx-background-color: BLACK;">
+         <children>
+            <Label alignment="CENTER" layoutX="77.0" layoutY="29.0" prefHeight="39.0" prefWidth="334.0" text="Bank">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="68.0" prefHeight="28.0" prefWidth="151.0" text="Name">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="119.0" prefHeight="28.0" prefWidth="151.0" text="Bank type">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="2.0" layoutY="177.0" prefHeight="28.0" prefWidth="151.0" text="Account number">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="231.0" prefHeight="28.0" prefWidth="111.0" text="Amount">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonsend" layoutX="118.0" layoutY="321.0" mnemonicParsing="false" onAction="#buttonsendOnAction" prefHeight="72.0" prefWidth="215.0" text="Send">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtname" layoutX="141.0" layoutY="70.0" prefHeight="25.0" prefWidth="290.0" promptText="name" />
+            <TextField fx:id="txtbank" layoutX="141.0" layoutY="121.0" prefHeight="25.0" prefWidth="290.0" promptText="bank type...eg calbank, ADB, " />
+            <TextField fx:id="txtaccount" layoutX="146.0" layoutY="179.0" prefHeight="25.0" prefWidth="290.0" promptText="Account" />
+            <TextField fx:id="txtamount" layoutX="147.0" layoutY="232.0" prefHeight="25.0" prefWidth="290.0" promptText="amount" />
+            <Button fx:id="savebutton" layoutX="86.0" layoutY="466.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="233.0" text="Save">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="502.0" layoutY="-7.0" prefHeight="541.0" prefWidth="262.0" style="-fx-background-color: #36013F;" />
+   </children>
+</AnchorPane>

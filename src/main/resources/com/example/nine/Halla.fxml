@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nine.hallaController">
+   <children>
+      <AnchorPane layoutX="12.0" layoutY="14.0" prefHeight="153.0" prefWidth="259.0" style="-fx-background-color: Blue;">
+         <children>
+            <Label fx:id="lbl_renoylds" layoutX="33.0" layoutY="40.0" prefHeight="78.0" prefWidth="166.0" text="Renoylds" textFill="#e4e1e1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="336.0" layoutY="20.0" prefHeight="143.0" prefWidth="259.0" style="-fx-background-color: Blue;">
+         <children>
+            <Label fx:id="lbl_danquah" layoutX="42.0" layoutY="30.0" prefHeight="96.0" prefWidth="196.0" text="JB.Danquah" textFill="#e4e1e1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="194.0" prefHeight="111.0" prefWidth="279.0" style="-fx-background-color: Blue;">
+         <children>
+            <Label fx:id="lbl_Oti" layoutX="46.0" layoutY="61.0" prefHeight="78.0" prefWidth="166.0" text="Oti Boateng" textFill="#e4e1e1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="332.0" layoutY="194.0" prefHeight="123.0" prefWidth="268.0" style="-fx-background-color: Blue;">
+         <children>
+            <Label fx:id="lbl_george" layoutX="40.0" layoutY="34.0" prefHeight="96.0" prefWidth="196.0" text="George Afrane" textFill="#e4e1e1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="350.0" prefHeight="54.0" prefWidth="196.0" text="Enter your hall of choice">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="hall_txt" layoutX="204.0" layoutY="359.0" prefHeight="36.0" prefWidth="210.0" promptText="Hall of choice" />
+      <Button fx:id="buttonsubmit" layoutX="457.0" layoutY="351.0" mnemonicParsing="false" onAction="#buttonsubmitOnAction" prefHeight="44.0" prefWidth="160.0" text="Submit">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nine.welcomeController">
+   <right>
+      <AnchorPane prefHeight="608.0" prefWidth="210.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="128.0" fitWidth="176.0" layoutX="5.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@KTU.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="105.0" fitWidth="177.0" layoutX="5.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic10.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="114.0" fitWidth="177.0" layoutX="6.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic9.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="123.0" fitWidth="180.0" layoutX="5.0" layoutY="430.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pic6.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+   <left>
+      <AnchorPane prefHeight="570.0" prefWidth="563.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="8.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We congraulate you on securing a place to study in the premier university. Your time here will be academically demanding but deeply rewarding." wrappingWidth="543.80859375">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="11.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you are able to  properley allocate time for your academic work" wrappingWidth="530.95458984375">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="4.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and extracurricular activities. I wish you happy stay in Koforidua University">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Label layoutX="15.0" layoutY="8.0" prefHeight="107.0" prefWidth="529.0" style="-fx-background-color: black;" text="Welcome to koforidua Technical university Hostel" textFill="#ddd2d2">
+               <font>
+                  <Font name="Broadway" size="19.0" />
+               </font>
+            </Label>
+            <Text layoutX="11.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For more information contact us  on info@ktu.edu.gh">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="buttonhome" graphicTextGap="0.0" layoutX="143.0" layoutY="341.0" mnemonicParsing="false" onAction="#buttonhomeOnAction" prefHeight="57.0" prefWidth="168.0" style="-fx-background-color: #000000;" text="Home" textFill="#eeeaea">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
